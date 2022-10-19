@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+.image {
+  height: 90px;
+  width: 220px;
+  margin-bottom: 30px;
+}
+.container {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 3px 3px #888888;
+  /* background: pink; */
+  border-radius: 20px;
+  padding: 10px;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+.input {
+  border-color: transparent;
+  outline: none;
+  width: 600px;
+  padding: 3px;
+  font-family: 'roboto';
+}
+.search-icon {
+  height: 30px;
+  width: 30px;
+}
+.ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
